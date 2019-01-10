@@ -1,0 +1,403 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	color:black;
+}
+header{
+	height: 40px;
+	text-align: center;
+	
+	
+	padding-top:20px;
+}
+ul {
+    list-style-type: none;
+    margin:0;
+    margin-bottom:20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+    position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+   display: inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+	padding: 0;
+
+}
+a{text-decoration: none;}
+
+h1,.icon-bar i{
+    font-size: 0.8rem;
+}
+
+@media (min-width: 400px) {
+    h1,.icon-bar i {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 600px) {
+    h1,.icon-bar i {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 800px) {
+    h1,.icon-bar i{
+        font-size: 1.7rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    h1,.icon-bar i{
+        font-size: 2rem;
+    }
+}
+.kategoriler{
+	width:72%;
+	margin-top:80px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.icon-bar {
+    width: 100%;
+    background-color: #333;
+    overflow: auto;
+}
+
+
+.icon-bar a {
+    float: left;
+    width: 8.32%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+   
+}
+.icon-bar i {
+	
+	padding-bottom: 7px;
+}
+
+.icon-bar a:hover {
+    background-color: #4CAF50;
+}
+
+.row{
+	width:100%;
+}
+.col-2{
+	width:16.66%;
+	float: left;
+}
+
+.kanallar{
+	margin-left: auto;
+	margin-right: auto;
+	width:72%;
+	margin-top:10px;
+	text-align: center;
+	
+	max-height: 500px;
+	overflow: auto;
+}
+
+
+.kanallar img{
+ max-width: 100%;
+    height: auto;
+    border: 1px solid #4CAF50 ; 
+    border-radius: 4px; 
+    padding: 5px; 
+    width: 150px; 
+}
+.kanallar img:hover{
+
+    box-shadow: 0 0 2px 1px rgba(76,175,80,0.5);
+}
+
+.kanal_ad{
+	text-align: center;
+}
+
+.kanallar a {color: #4CAF50;
+font-size:bold;}
+.kanallar .col-2 {margin-top:10px;}
+.col-12{
+	float:left;
+	width: 100%;
+
+}
+.kanallar .col-12 { background-color:#4CAF50; margin-top:20px; padding: 20px; }
+.kanallar .col-12 a{color:black; padding: 20px 120px;}
+footer{
+	width: 72%;
+	background-color: black;
+	color:white;
+	height:auto;
+	margin-top:20px;
+	padding-top: 20px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.tv_
+{
+	width: 72%;
+	margin-right: auto;
+	margin-left: auto;
+	height: 500px;
+	padding: 10px;
+	margin-top: 30px;
+	background-color: #333;
+}
+.col-8{
+	width:75%;
+	float:left;
+}
+.col-4{
+	width:25%;
+	float:left;
+}
+.col-12{
+	width:100%;
+	float:left;
+}
+.tv_ .col-4{
+	padding-left:10px;
+}
+.araText{
+	width:100%;
+	background-color: #333;
+	color:white;
+	border:1px solid #4CAF50 ;
+	height:30px;
+}
+.dikeyKanallar{
+    width: 100%;
+    height:150px;
+    overflow: auto;
+    margin-top: 10px;
+}
+
+.dikeyKanallar a {
+    background-color: #4CAF50;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.dikeyKanallar a:hover {
+    background-color: #333;
+    color:white;
+}
+
+.dikeyKanallar a.active {
+    background-color: #333;
+    color: white;
+}
+.fright{float:right;}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: black; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+.tv_ .col-4 .col-12 {
+	margin-bottom: 5px;
+}
+.chatBox
+{
+	background-color:  #4CAF50;
+	height: 150px;
+	width: 100%;
+	font-size: 12px;
+	overflow: auto;
+}
+.chatBox p {
+border-bottom:1px solid black;
+
+}
+.text-center{text-align: center;}
+.italik {
+	font-style: italic;
+}
+.nickText{
+	width: 100%;
+
+}
+.mesajText{
+	width: 100%;
+	height:50px;
+	    resize: none;
+}
+.mesajButton{
+	width: 100%;
+	border:2px solid #333;
+	background-color: #4CAF50;
+	height: 50px;
+}
+.fleft{
+	float:left;
+}
+.nickName{
+	font-size: 15px;
+	font-style: bold;
+}
+.tarihChat{
+	font-size: 10px;
+	font-style: italic;
+}
+.yayinAkisi{
+margin-right: auto;
+margin-left: auto;
+width: 72%;
+background-color: #4CAF50;
+text-align: center;
+margin-top: 10px;
+}
+.yayinAkisi h1 {
+	color:#333;
+	
+}
+.tumYayinAkisi{
+	background-color: #4CAF50;
+	margin-top: 50px;
+	width: 72%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.baslik{
+	width: 72%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 10px;
+	background-color: #4CAF50;
+}
+.baslik h1{
+	color:#333;
+}
+
+.iletisimForm{
+	width: 72%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #4CAF50;
+	margin-top: 10px;
+}
+
+ .iletisimForm input[type=text],.iletisimForm select,.iletisimForm textarea, .iletisimForm input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #333;
+}
+
+.iletisimForm input[type=submit] {
+    background-color: #333;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.iletisimForm input[type=submit]:hover {
+    background-color: black;
+}
+
+.iletisimForm {
+    border-radius: 5px;
+    background-color: #4CAF50;
+    padding: 20px;
+}
+.formBaslik{
+	width: 72%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 50px;
+	background-color:  #4CAF50;
+	
+}
+.formBaslik h1{
+	color:#333;
+}
+.anaKanalAra{
+	width: 20%;
+	background-color: #4CAF50;
+	color:white;
+	border:5px solid #333;
+	border-radius: 5px;
+}
+.anaKanalAra:focus{
+	outline: none;
+	border:5px solid #333;
+}
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color
+   }
